@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/Justi/doom-engine-jw/build",
+  "command": "C:/llvm-mingw-20240619-msvcrt-x86_64/bin/cc.exe  @CMakeFiles/DoomEngineJW.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles/DoomEngineJW.dir/src/main.c.obj -c C:/Users/Justi/doom-engine-jw/src/main.c",
+  "file": "C:/Users/Justi/doom-engine-jw/src/main.c",
+  "output": "CMakeFiles/DoomEngineJW.dir/src/main.c.obj"
+},
+{
+  "directory": "C:/Users/Justi/doom-engine-jw/build",
+  "command": "C:/llvm-mingw-20240619-msvcrt-x86_64/bin/cc.exe  @CMakeFiles/DoomEngineJW.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles/DoomEngineJW.dir/src/raycaster.c.obj -c C:/Users/Justi/doom-engine-jw/src/raycaster.c",
+  "file": "C:/Users/Justi/doom-engine-jw/src/raycaster.c",
+  "output": "CMakeFiles/DoomEngineJW.dir/src/raycaster.c.obj"
+},
+{
+  "directory": "C:/Users/Justi/doom-engine-jw/build",
+  "command": "C:/llvm-mingw-20240619-msvcrt-x86_64/bin/cc.exe  @CMakeFiles/DoomEngineJW.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles/DoomEngineJW.dir/src/map.c.obj -c C:/Users/Justi/doom-engine-jw/src/map.c",
+  "file": "C:/Users/Justi/doom-engine-jw/src/map.c",
+  "output": "CMakeFiles/DoomEngineJW.dir/src/map.c.obj"
+}
+]
