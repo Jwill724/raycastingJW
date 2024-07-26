@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../doom-engine-jw"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"stdio.h": "c",
+			"sdl.h": "c",
+			"raycaster.h": "c",
+			"string.h": "c",
+			"map.h": "c",
+			"random": "c"
+		}
+	}
+}

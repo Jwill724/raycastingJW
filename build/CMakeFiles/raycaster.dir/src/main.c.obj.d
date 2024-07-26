@@ -1,6 +1,6 @@
-CMakeFiles/DoomEngineJW.dir/src/main.c.obj: \
-  C:/Users/Justi/doom-engine-jw/src/main.c \
-  C:/Users/Justi/doom-engine-jw/src/include/raycaster.h \
+CMakeFiles/raycaster.dir/src/main.c.obj: \
+  C:/Users/Justi/raycaster/src/main.c \
+  C:/Users/Justi/raycaster/src/include/raycaster.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/lib/clang/18/include/stdint.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/stdint.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/crtdefs.h \
@@ -14,13 +14,13 @@ CMakeFiles/DoomEngineJW.dir/src/main.c.obj: \
   C:/llvm-mingw-20240619-msvcrt-x86_64/lib/clang/18/include/stddef.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/lib/clang/18/include/__stddef_wchar_t.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/lib/clang/18/include/__stddef_wint_t.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_main.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_stdinc.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_config.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_platform.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/begin_code.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/close_code.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_main.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_stdinc.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_config.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_platform.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/begin_code.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/close_code.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/winsdkver.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/winapifamily.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/sdkddkver.h \
@@ -37,20 +37,20 @@ CMakeFiles/DoomEngineJW.dir/src/main.c.obj: \
   C:/llvm-mingw-20240619-msvcrt-x86_64/lib/clang/18/include/__stdarg_va_arg.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/lib/clang/18/include/__stdarg___va_copy.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/lib/clang/18/include/__stdarg_va_copy.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_assert.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_atomic.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_audio.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_error.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_endian.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_mutex.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_thread.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_assert.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_atomic.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_audio.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_error.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_endian.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_mutex.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_thread.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/process.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/corecrt_startup.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/sys/types.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/_mingw_off_t.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_rwops.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_clipboard.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_cpuinfo.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_rwops.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_clipboard.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_cpuinfo.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/lib/clang/18/include/intrin.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/intrin.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/setjmp.h \
@@ -170,39 +170,39 @@ CMakeFiles/DoomEngineJW.dir/src/main.c.obj: \
   C:/llvm-mingw-20240619-msvcrt-x86_64/lib/clang/18/include/clzerointrin.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/lib/clang/18/include/rdpruintrin.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/lib/clang/18/include/cpuid.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_events.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_video.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_pixels.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_rect.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_surface.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_blendmode.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_keyboard.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_keycode.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_scancode.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_mouse.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_joystick.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_guid.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_gamecontroller.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_sensor.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_quit.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_gesture.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_touch.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_filesystem.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_haptic.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_hidapi.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_hints.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_loadso.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_log.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_messagebox.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_metal.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_power.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_render.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_shape.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_system.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_timer.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_version.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_locale.h \
-  C:/Users/Justi/doom-engine-jw/src/include/SDL2/SDL_misc.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_events.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_video.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_pixels.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_rect.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_surface.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_blendmode.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_keyboard.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_keycode.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_scancode.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_mouse.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_joystick.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_guid.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_gamecontroller.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_sensor.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_quit.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_gesture.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_touch.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_filesystem.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_haptic.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_hidapi.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_hints.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_loadso.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_log.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_messagebox.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_metal.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_power.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_render.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_shape.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_system.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_timer.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_version.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_locale.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_misc.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/lib/clang/18/include/stdbool.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/string.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/sec_api/string_s.h \

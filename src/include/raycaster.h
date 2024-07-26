@@ -16,12 +16,9 @@ typedef int64_t  i64;
 typedef size_t   usize;
 typedef ssize_t  isize;
 
-#define min(a, b) ({ __typeof__(a) _a = (a), _b = (b); _a < _b ? _a : _b; })
-#define max(a, b) ({ __typeof__(a) _a = (a), _b = (b); _a > _b ? _a : _b; })
-#define sign(a) ({                                       \
-        __typeof__(a) _a = (a);                          \
-        (__typeof__(a))(_a < 0 ? -1 : (_a > 0 ? 1 : 0)); \
-    })
+#define MIN(a, b) ((a) < (b) ? (a) : (b))
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+#define SIGN(a) ((a) < 0 ? -1 : ((a) > 0 ? 1 : 0))
 #define SCREEN_WIDTH 640
 #define SCREEN_HEIGHT 480
 
@@ -39,4 +36,4 @@ typedef struct {
 } State;
 
 void render(State *state);
-void rotate(State *state, f32 rot);
+void rotate(State *state, f32 rotate);

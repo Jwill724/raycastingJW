@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Justi/doom-engine-jw
+# Install script for directory: C:/Users/Justi/raycaster
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/DoomEngineJW")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/raycaster")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Justi/doom-engine-jw/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Justi/raycaster/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,7 @@
 # compile C with C:/llvm-mingw-20240619-msvcrt-x86_64/bin/cc.exe
 C_DEFINES = 
 
-C_INCLUDES = @CMakeFiles/DoomEngineJW.dir/includes_C.rsp
+C_INCLUDES = @CMakeFiles/raycaster.dir/includes_C.rsp
 
 C_FLAGS = -g -std=gnu99
 

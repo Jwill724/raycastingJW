@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Justi/doom-engine-jw/build"
+			"value" : "c:/Users/Justi/raycaster/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -619,7 +619,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Justi/doom-engine-jw/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Justi/raycaster/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Justi/doom-engine-jw"
+			"value" : "C:/Users/Justi/raycaster"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -703,7 +703,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/DoomEngineJW"
+			"value" : "C:/Program Files (x86)/raycaster"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -923,7 +923,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "DoomEngineJW"
+			"value" : "raycaster"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1318,7 +1318,19 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "DoomEngineJW_BINARY_DIR",
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "FALSE"
+		},
+		{
+			"name" : "raycaster_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1327,10 +1339,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Justi/doom-engine-jw/build"
+			"value" : "C:/Users/Justi/raycaster/build"
 		},
 		{
-			"name" : "DoomEngineJW_IS_TOP_LEVEL",
+			"name" : "raycaster_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1342,7 +1354,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "DoomEngineJW_SOURCE_DIR",
+			"name" : "raycaster_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1351,19 +1363,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Justi/doom-engine-jw"
-		},
-		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "FALSE"
+			"value" : "C:/Users/Justi/raycaster"
 		}
 	],
 	"kind" : "cache",

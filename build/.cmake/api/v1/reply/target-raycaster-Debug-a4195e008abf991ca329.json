@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "DoomEngineJW.exe"
+			"path" : "raycaster.exe"
 		},
 		{
-			"path" : "DoomEngineJW.pdb"
+			"path" : "raycaster.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -72,11 +72,11 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/Justi/doom-engine-jw/src/include"
+					"path" : "C:/Users/Justi/raycaster/src/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "C:/Users/Justi/doom-engine-jw/src/lib/cmake/SDL2"
+					"path" : "C:/Users/Justi/raycaster/src/lib/cmake/SDL2"
 				}
 			],
 			"language" : "C",
@@ -96,7 +96,7 @@
 			]
 		}
 	],
-	"id" : "DoomEngineJW::@6890427a1f51a3e7e1df",
+	"id" : "raycaster::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -111,17 +111,17 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LC:/Users/Justi/doom-engine-jw/src/lib",
+				"fragment" : "-LC:/Users/Justi/raycaster/src/lib",
 				"role" : "libraryPath"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:/Users/Justi/doom-engine-jw/src/lib/libSDL2.dll.a",
+				"fragment" : "C:/Users/Justi/raycaster/src/lib/libSDL2.dll.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "C:/Users/Justi/doom-engine-jw/src/lib/libSDL2main.a",
+				"fragment" : "C:/Users/Justi/raycaster/src/lib/libSDL2main.a",
 				"role" : "libraries"
 			},
 			{
@@ -131,8 +131,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "DoomEngineJW",
-	"nameOnDisk" : "DoomEngineJW.exe",
+	"name" : "raycaster",
+	"nameOnDisk" : "raycaster.exe",
 	"paths" : 
 	{
 		"build" : ".",

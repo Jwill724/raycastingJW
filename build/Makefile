@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:/Users/Justi/doom-engine-jw
+CMAKE_SOURCE_DIR = C:/Users/Justi/raycaster
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/Justi/doom-engine-jw/build
+CMAKE_BINARY_DIR = C:/Users/Justi/raycaster/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Justi/doom-engine-jw/build/CMakeFiles C:/Users/Justi/doom-engine-jw/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Justi/raycaster/build/CMakeFiles C:/Users/Justi/raycaster/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Justi/doom-engine-jw/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/Justi/raycaster/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DoomEngineJW
+# Target rules for targets named raycaster
 
 # Build rule for target.
-DoomEngineJW: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DoomEngineJW
-.PHONY : DoomEngineJW
+raycaster: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 raycaster
+.PHONY : raycaster
 
 # fast build rule for target.
-DoomEngineJW/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoomEngineJW.dir/build.make CMakeFiles/DoomEngineJW.dir/build
-.PHONY : DoomEngineJW/fast
+raycaster/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raycaster.dir/build.make CMakeFiles/raycaster.dir/build
+.PHONY : raycaster/fast
 
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoomEngineJW.dir/build.make CMakeFiles/DoomEngineJW.dir/src/main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raycaster.dir/build.make CMakeFiles/raycaster.dir/src/main.c.obj
 .PHONY : src/main.c.obj
 
 src/main.i: src/main.c.i
@@ -142,7 +142,7 @@ src/main.i: src/main.c.i
 
 # target to preprocess a source file
 src/main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoomEngineJW.dir/build.make CMakeFiles/DoomEngineJW.dir/src/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raycaster.dir/build.make CMakeFiles/raycaster.dir/src/main.c.i
 .PHONY : src/main.c.i
 
 src/main.s: src/main.c.s
@@ -150,7 +150,7 @@ src/main.s: src/main.c.s
 
 # target to generate assembly for a file
 src/main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoomEngineJW.dir/build.make CMakeFiles/DoomEngineJW.dir/src/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raycaster.dir/build.make CMakeFiles/raycaster.dir/src/main.c.s
 .PHONY : src/main.c.s
 
 src/map.obj: src/map.c.obj
@@ -158,7 +158,7 @@ src/map.obj: src/map.c.obj
 
 # target to build an object file
 src/map.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoomEngineJW.dir/build.make CMakeFiles/DoomEngineJW.dir/src/map.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raycaster.dir/build.make CMakeFiles/raycaster.dir/src/map.c.obj
 .PHONY : src/map.c.obj
 
 src/map.i: src/map.c.i
@@ -166,7 +166,7 @@ src/map.i: src/map.c.i
 
 # target to preprocess a source file
 src/map.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoomEngineJW.dir/build.make CMakeFiles/DoomEngineJW.dir/src/map.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raycaster.dir/build.make CMakeFiles/raycaster.dir/src/map.c.i
 .PHONY : src/map.c.i
 
 src/map.s: src/map.c.s
@@ -174,7 +174,7 @@ src/map.s: src/map.c.s
 
 # target to generate assembly for a file
 src/map.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoomEngineJW.dir/build.make CMakeFiles/DoomEngineJW.dir/src/map.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raycaster.dir/build.make CMakeFiles/raycaster.dir/src/map.c.s
 .PHONY : src/map.c.s
 
 src/raycaster.obj: src/raycaster.c.obj
@@ -182,7 +182,7 @@ src/raycaster.obj: src/raycaster.c.obj
 
 # target to build an object file
 src/raycaster.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoomEngineJW.dir/build.make CMakeFiles/DoomEngineJW.dir/src/raycaster.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raycaster.dir/build.make CMakeFiles/raycaster.dir/src/raycaster.c.obj
 .PHONY : src/raycaster.c.obj
 
 src/raycaster.i: src/raycaster.c.i
@@ -190,7 +190,7 @@ src/raycaster.i: src/raycaster.c.i
 
 # target to preprocess a source file
 src/raycaster.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoomEngineJW.dir/build.make CMakeFiles/DoomEngineJW.dir/src/raycaster.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raycaster.dir/build.make CMakeFiles/raycaster.dir/src/raycaster.c.i
 .PHONY : src/raycaster.c.i
 
 src/raycaster.s: src/raycaster.c.s
@@ -198,7 +198,7 @@ src/raycaster.s: src/raycaster.c.s
 
 # target to generate assembly for a file
 src/raycaster.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoomEngineJW.dir/build.make CMakeFiles/DoomEngineJW.dir/src/raycaster.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/raycaster.dir/build.make CMakeFiles/raycaster.dir/src/raycaster.c.s
 .PHONY : src/raycaster.c.s
 
 # Help Target
@@ -209,7 +209,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... DoomEngineJW"
+	@echo "... raycaster"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

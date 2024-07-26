@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Justi/doom-engine-jw/src/main.c" "CMakeFiles/DoomEngineJW.dir/src/main.c.obj" "gcc" "CMakeFiles/DoomEngineJW.dir/src/main.c.obj.d"
-  "C:/Users/Justi/doom-engine-jw/src/map.c" "CMakeFiles/DoomEngineJW.dir/src/map.c.obj" "gcc" "CMakeFiles/DoomEngineJW.dir/src/map.c.obj.d"
-  "C:/Users/Justi/doom-engine-jw/src/raycaster.c" "CMakeFiles/DoomEngineJW.dir/src/raycaster.c.obj" "gcc" "CMakeFiles/DoomEngineJW.dir/src/raycaster.c.obj.d"
+  "C:/Users/Justi/raycaster/src/main.c" "CMakeFiles/raycaster.dir/src/main.c.obj" "gcc" "CMakeFiles/raycaster.dir/src/main.c.obj.d"
+  "C:/Users/Justi/raycaster/src/map.c" "CMakeFiles/raycaster.dir/src/map.c.obj" "gcc" "CMakeFiles/raycaster.dir/src/map.c.obj.d"
+  "C:/Users/Justi/raycaster/src/raycaster.c" "CMakeFiles/raycaster.dir/src/raycaster.c.obj" "gcc" "CMakeFiles/raycaster.dir/src/raycaster.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

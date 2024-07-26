@@ -21,9 +21,10 @@ int main(int argc, char* argv[]) {
 
     state.texture = SDL_CreateTexture(state.renderer, SDL_PIXELFORMAT_ARGB8888, SDL_TEXTUREACCESS_STREAMING, SCREEN_WIDTH, SCREEN_HEIGHT);
 
-    state.pos = (v2){22.0f, 22.0f};
+    // position controllers
+    state.pos = (v2){20.0f, 20.0f};
     state.dir = (v2){-1.0f, 0.0f};
-    state.plane = (v2){0.0f, 0.66f};
+    state.plane = (v2){0.0f, 0.60f};
     state.quit = false;
 
     while(!state.quit){
@@ -40,10 +41,19 @@ int main(int argc, char* argv[]) {
                     break;
             }
         }
+/*
+        // time of current and previous frame
+        f64 curTime = 0;
+        f64 oldTime = 0;
 
+        oldTime = curTime;
+        curTime = SDL_GetTicks();
+        f64 fps = (curTime - oldTime) / 1000.0;
+        printf("%lf\n", fps);
+*/
         const f32 
-            rotspeed = 1.0f * 0.008f, 
-            movespeed = 1.0f * 0.008f;
+            rotspeed = 2.0f * 0.016f, 
+            movespeed = 2.0f * 0.016f;
 
         const u8 *keystate = SDL_GetKeyboardState(NULL);
         if (keystate[SDL_SCANCODE_A]) {
