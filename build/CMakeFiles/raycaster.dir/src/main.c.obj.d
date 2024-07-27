@@ -204,6 +204,7 @@ CMakeFiles/raycaster.dir/src/main.c.obj: \
   C:/Users/Justi/raycaster/src/include/SDL2/SDL_locale.h \
   C:/Users/Justi/raycaster/src/include/SDL2/SDL_misc.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/lib/clang/18/include/stdbool.h \
+  C:/Users/Justi/raycaster/src/include/SDL2/SDL_ttf.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/string.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/sec_api/string_s.h \
   C:/llvm-mingw-20240619-msvcrt-x86_64/include/stdio.h \
