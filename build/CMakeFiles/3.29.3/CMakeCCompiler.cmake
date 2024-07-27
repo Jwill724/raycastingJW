@@ -28,7 +28,7 @@ set(CMAKE_C_COMPILER_RANLIB "C:/llvm-mingw-20240619-msvcrt-x86_64/bin/llvm-ranli
 set(CMAKE_LINKER "C:/llvm-mingw-20240619-msvcrt-x86_64/bin/ld.lld.exe")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
-set(CMAKE_C_COMPILER_LINKER "C:/llvm-mingw-20240619-msvcrt-x86_64/bin/ld.lld")
+set(CMAKE_C_COMPILER_LINKER "c:/llvm-mingw-20240619-msvcrt-x86_64/bin/ld.lld")
 set(CMAKE_C_COMPILER_LINKER_ID "LLD")
 set(CMAKE_C_COMPILER_LINKER_VERSION 18.1.8)
 set(CMAKE_C_COMPILER_LINKER_FRONTEND_VARIANT GNU)
